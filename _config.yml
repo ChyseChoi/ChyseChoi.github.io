@@ -57,6 +57,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+    elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Onl
   
 
 
@@ -89,6 +91,8 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+      
+ 
   - scope:
       path: ""
       type: "posts"
