@@ -1,13 +1,13 @@
 ### Site Settings ###
 title               : portfolYOU
 description         : >-
-                      I turn coffee :coffee: ingugugu
+                      I turn coffee :coffee: into code,
                       use tabs over spaces
-                      ahihihihihi
-baseurl             : "https://chysechoi.github.io/" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : ChyseChoi/ChyseChoi.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+                      and never broke production.
+baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : true                          # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
@@ -20,9 +20,9 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - pages/blog.md
-  - pages/projects.md
- 
+  - documentation/partials/**                           # For Documentation Only
+
+
 ### Author Info ###
 author:
   name              : John Doe
@@ -57,9 +57,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-    elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Onl
-  
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
@@ -91,7 +90,7 @@ defaults:
       type: "projects"
     values:
       layout: "page"
- - scope:                                              # For Documentation Only
+  - scope:                                              # For Documentation Only
       path: ""                                          # For Documentation Only
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
