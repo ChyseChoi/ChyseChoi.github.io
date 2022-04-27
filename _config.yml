@@ -48,8 +48,8 @@ author:
 
 
 ### Posts ###
-permalink: /chysechoi.github.io/blog
-
+Posts:
+     permalink:/blog/:title
 
 ### Collections ###
 collections:
