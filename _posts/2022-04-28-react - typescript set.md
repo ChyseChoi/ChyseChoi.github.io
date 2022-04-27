@@ -1,8 +1,8 @@
 ---
  title: Awesome Title
  tags: [React]
- style: fill
- color: success
+ style:
+ color:
  description: Write post description here, or it will be the first 25 words of the post's body.
  ---
 # create - react - app : typescript
