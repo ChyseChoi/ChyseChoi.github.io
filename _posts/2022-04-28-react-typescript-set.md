@@ -1,10 +1,10 @@
 ---
- title: Awesome Title
- tags: [React]
- style:
- color:
- description: Write post description here, or it will be the first 25 words of the post's body.
- ---
+title: Create React App : Typescript
+tags: [React, JavaScript, Web Development]
+style: border
+color: primary
+description: Create React App : Typescript
+---
 # create - react - app : typescript
 
 
