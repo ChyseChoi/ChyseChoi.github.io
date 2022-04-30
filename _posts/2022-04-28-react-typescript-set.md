@@ -1,7 +1,7 @@
 ---
-title: Create React App : Typescript
+title: Create React App withTypescript
 tags: [React, JavaScript, Web Development]
-style: border
+style: 
 color: primary
 description : Create React app with Typescript
 ---
