@@ -7,9 +7,7 @@ description : Create React app with Typescript
 
 ---
 
----
 
-# create - react - app : typescript
 
 1. **npx-create-react-app 으로 폴더 생성 : typescript 프로젝트 생성** 
 
